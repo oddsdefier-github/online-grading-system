@@ -1,0 +1,153 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+}
+
+body {
+	background-color: #006400;
+	background-image: url("../../images/icst.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.sidebar ul {
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	position: fixed;
+}
+
+.sidebar img {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -110px;
+}
+
+/*.container{
+  background-color: #006400;
+  height: 470px;
+  width: 35%;
+  margin-top: 95px;
+  margin-left: 560px;
+  border-radius: 10px;
+
+}*/
+
+.login_admin * {
+	font-family: "Times New Roman";
+	letter-spacing: 0.5px;
+	outline: none;
+	/*  border: none;*/
+}
+
+.login-content {
+	width: 70%;
+	height: 100%;
+	position: fixed;
+	left: 30%;
+}
+
+.login_admin {
+	background-color: #006400;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	height: 450px;
+	width: 400px;
+	padding: 50px 35px;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	/*overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);*/
+	display: block;
+}
+
+.login_admin h2 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.login_admin div label {
+	display: block;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.login_admin div input {
+	display: block;
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+	padding: 0 10px;
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #000;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+.forp a {
+	display: block;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none !important;
+	text-align: right;
+}
+
+.forp a:hover {
+	color: #000;
+}
+
+.submit100 {
+	width: 100%;
+	margin-top: 25px;
+	background-color: rgba(209, 185, 31);
+	color: #080710;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 15px 0;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	border: none;
+	outline: none !important;
+}
+
+.submit100:hover {
+	background-color: #333333;
+	color: #fff;
+}
+
+.alert {
+	padding: 5px;
+	background-color: #f44336;
+	color: #fff;
+	display: none;
+}
+
+.showalert {
+	display: block;
+}

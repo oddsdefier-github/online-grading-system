@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+}
+/* * {
+	outline: 1px solid red;
+} */
+
+body {
+	position: relative;
+	background-color: #006400;
+	background-image: url("assets/images/icst.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.signin {
+	color: white;
+/* From https://css.glass */
+background: rgba(214, 255, 120, 0.26);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(3.9px);
+border: 1px solid rgba(214, 255, 120, 0.53);
+}
+.bg-overlay {
+	z-index: -1;
+}
+.bg-overlay::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(32,89,53);
+	background: linear-gradient(190deg, rgba(32,89,53,0.8967787798713235) 0%, rgba(253,187,45,0) 100%); 
+}
+.signin .btn {
+	color: #000000;
+	background-color: #c9dd69;
+}
+/* .container_signin {
+	outline: 10px solid violet;
+	display: flex;
+	gap: 5rem;
+	width: 100vw;
+	height: 100%;
+}
+
+.logo {
+	background-color: white;
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin-main {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin-main form {
+	padding: 1rem;
+	color: white;
+	backdrop-filter: blur(4px) saturate(34%);
+	-webkit-backdrop-filter: blur(4px) saturate(34%);
+	background-color: rgba(69, 78, 84, 0.21);
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.signin-main form * {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+ */
+
+.hidden {
+	scale: 50%;
+}
